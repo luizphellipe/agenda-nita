@@ -1,0 +1,238 @@
+@charset "UTF-8";
+@import url @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url @import url('https://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise');
+@font-face {
+   font-family:'FonteNome';
+  /* src: url("../_fonts/ShadowsIntoLight.ttf");*/
+   src: url("../_fonts/GrSouvb.ttf");
+}
+
+body{
+  
+ 
+  
+ }
+.full{
+  width: 100%;
+  position: relative;
+}
+
+div#topo{
+  font-family: 'FonteNome', sans-serif;
+	margin: 10px 12px 10px 12px;
+  position: absolute;
+  width: calc(100% - 46px);
+
+  background: rgb(0,0,0) transparent;
+  background:   rgba(211, 211, 211, 1.0);
+
+}
+
+div#centro{
+  font-family: 'FonteNome', sans-serif;
+ /* margin: 200px 12px 10px 12px;*/
+  position: absolute;
+  width: calc(100% - 46px);
+
+  background: rgb(0,0,0) transparent;
+  background:   rgba(211, 211, 211, 1.0);
+}
+
+div#direita{
+	margin: 40px 12px 0px 20px;
+  position: ;
+  display: inline-block;
+  float: right;
+  border: ;
+  color:#000000;
+  width: calc(100% - 380px);
+  height: 650px;
+  position: absolute;
+  left: 320px;
+  top: 100px;
+
+  background: rgb(0,0,0) transparent;
+  background: rgba(255,255,255,0.8);
+  }
+
+div#formulario{
+  margin: 1px 1px 0px 1px;
+  position: ;
+  display: inline-block;
+  float:center ;
+  border: ;
+  color:#000000;
+  width: calc(100% - 380px);
+  height: 650px;
+  position: absolute;
+  left: 100px;
+  top: 100px;
+
+  }
+  div#formularioCentro{
+  margin: 201px 1px 0px 1px;
+  position: ;
+  display: inline-block;
+  float:center ;
+  border: ;
+  color:#000000;
+  width: calc(100% - 380px);
+  height: 650px;
+  position: absolute;
+  left: 100px;
+  top: 100px;
+
+  }
+
+
+
+  div#formulario p{
+    
+  border-radius: 10px;
+  background: rgb(0,0,0) transparent;
+  background:  rgba(211, 211, 211, 1.0);
+  }
+
+div#formularioCentro p{
+    
+  border-radius: 10px;
+  background: rgb(0,0,0) transparent;
+  background:  rgba(211, 211, 211, 1.0);
+  }
+
+
+
+div#rodape {
+  font-family: 'Century Gothic', sans-serif;
+	margin: 0px 12px 10px 12px;
+	position: absolute;
+	top: 800px;
+	width: calc(100% - 46px);
+	height: 90px;
+  background: rgb(0,0,0) transparent;
+  background: rgba(255,255,255,0.8);
+
+
+  //opacity:.6;
+ //background-color: #FFFFFF;
+
+     
+}
+div#rodape h1{
+
+}
+
+
+}	
+footer#rodape  {
+     clear : both;
+	/* border-top: 1px solid #606060;*/
+}	 
+footer#rodape p {
+    text-align:center; 
+   
+
+}	
+a:hover{
+	color:#CD0000;
+	
+  }
+img#icone{
+  position: absolute;
+  left: 100px;
+  top:5px;
+  width:155px;
+  height: 70px;
+}
+
+img#rodape {
+	position: absolute;
+	left: 100px;
+	top:5px;
+  width:100px;
+  height: 70px;
+}	
+
+#nav {
+  display:block;
+}
+
+#nav ul {
+  list-style:none;
+  /*text-transform:uppercase;*/
+  position: absolute;  
+  top:10px;
+
+  left:-20px;
+}
+
+#nav ul {
+ list-style: none;
+ text-transform: uppercase;
+} 
+
+#nav ul li {
+  position: relative;
+  display: block;
+}
+
+
+#nav ul li a {
+ color: #555;
+ text-decoration:none;
+ margin: 0 1px;
+ display: block;
+
+}
+
+
+
+#nav li {
+  display: ;
+  background-color: #8B8989;
+  padding: 10px;
+  margin: 10px;
+  transition:background-color 1s;
+  
+  }
+
+  #nav li ul {
+  display: none;
+}
+
+   #nav li:hover {
+    background-color:#CFCFCF;
+  
+  }
+  
+  
+   #nav li:hover ul {
+  display: block;    
+  position: relative;
+  
+}
+    #nav li:hover li {
+  float:none;
+  font-size: 12px;
+  }
+
+  #nav h1 {
+   display: none;
+}   
+
+#nav a {
+  color:#000000;
+  text-decoration: none;
+  }
+  
+#nav a:hover {
+   color:#ffffff;
+   text-decoration:underline;
+   background-color:#8B8989;
+}
+  
+
+
+
+
+

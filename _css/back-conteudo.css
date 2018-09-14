@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+section#conteudo {
+     width: 1000px;
+     margin: auto;
+  
+  }
+iframe#frame-spec {
+    margin: -20px -1px -1px -1px;
+    width:100%;
+    height:99%;
+    border-radius: 10px;
+    
+  
+  
+  }
+
+
+div#direita iframe#frame-spec img#imagem {
+width:100%;
+height:100%;
+
+
+ }
+iframe#frame-spec::-webkit-scrollbar {
+ display: none;
+}
+
+
+
+  
+
+
