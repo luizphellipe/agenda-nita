@@ -6,7 +6,7 @@ $(document).ready(function () {
         // var dados = new FormData(formCadastro);
         var dados = formCadastro.serialize();
         $.ajax({
-            url: "https://localhost/agenda-nita/processa.php?p=adiciona",
+            url: "http://localhost/agenda-nita/processa.php?p=adiciona",
             method: "POST",
             dataType: "JSON",
             data: dados,

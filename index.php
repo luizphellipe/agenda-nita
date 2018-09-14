@@ -67,8 +67,10 @@
                 <br>
 
                 <div >
-                    <button type="submit" style="border: 2px solid grey ;border-radius: 5px;"">Cadastrar</button>
+                    <button type="submit" style="border: 2px solid grey ;border-radius: 5px;">Cadastrar</button>
                 </div>
+                </form>
+                <div class="resposta"></div>
      </div>
 
 <!--?php

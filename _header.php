@@ -11,6 +11,8 @@ require_once "./vendor/autoload.php";
 	 <title> AGENDA NITA</title> 
 	 <link rel="stylesheet" type="text/css" href="_css/back.css"/> 
     <link rel="stylesheet" type="text/css" href="_css/back-conteudo.css"/> 
+   <script src="jquery.min.js"></script>
+   <script src="app.js"></script>
      
 </head>
 <body>
